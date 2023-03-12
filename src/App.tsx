@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Footer from "./Footer";
 
 function App() {
   function handleClick(response: any) {
@@ -68,15 +69,8 @@ function App() {
           </div>
         </div>
       </div>
-      <footer className="attribution">
-        Coded by{" "}
-        <a
-          href="https://www.kelsielharris.com"
-          target="_blank"
-          rel="nonreferrer"
-        >
-          Kelsie Harris
-        </a>
+      <footer>
+        <Footer />
       </footer>
     </div>
   );
