@@ -1,0 +1,65 @@
+h2 {
+  color: var(--very-dark-cyan);
+  font-size: 14px;
+}
+
+h3 {
+  color: white;
+  font-size: 14px;
+}
+
+h4 {
+  color: var(--dark-grayish-cyan);
+  font-size: 10px;
+}
+
+input {
+  background: var(--very-light-grayish-cyan);
+  border: 1px solid var(--very-light-grayish-cyan);
+  color: var(--grayish-cyan);
+}
+
+input:focus {
+  border: 2px solid var(--strong-cyan);
+  border-radius: 4px;
+  outline: none;
+}
+
+.App {
+  background: var(--light-grayish-cyan);
+  font-family: "Space Mono", monospace;
+  padding-top: 100px;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  height: 300px;
+  width: 660px;
+}
+
+.dark-background {
+  background: var(--very-dark-cyan);
+}
+
+.custom {
+  background: var(--very-light-grayish-cyan);
+  color: var(--very-dark-cyan);
+}
+
+.tip-btn {
+  background: var(--very-dark-cyan);
+  color: white;
+  border-radius: 4px;
+}
+
+.totals {
+  color: var(--strong-cyan);
+}
+
+.reset-btn {
+  background: var(--dark-grayish-cyan);
+  color: white;
+  border-radius: 4px;
+}
