@@ -31,21 +31,21 @@ input:focus {
   padding-top: 100px;
 }
 
-.container {
-  background: white;
-  border-radius: 20px;
-  margin-top: 40px;
-  height: 300px;
-  width: 660px;
-}
-
 .dark-background {
   background: var(--very-dark-cyan);
+  border-radius: 12px;
 }
 
-.custom {
+.custom-btn {
   background: var(--very-light-grayish-cyan);
+  border-radius: 4px;
   color: var(--very-dark-cyan);
+}
+.reset-btn {
+  background: var(--strong-cyan);
+  opacity: 20%;
+  color: var(--dark-grayish-cyan);
+  border-radius: 4px;
 }
 
 .tip-btn {
@@ -54,12 +54,13 @@ input:focus {
   border-radius: 4px;
 }
 
-.totals {
-  color: var(--strong-cyan);
+.tip-container {
+  background: white;
+  border-radius: 18px;
+  max-width: 620px;
 }
 
-.reset-btn {
-  background: var(--dark-grayish-cyan);
-  color: white;
-  border-radius: 4px;
+.totals {
+  color: var(--strong-cyan);
+  font-size: 32px;
 }
