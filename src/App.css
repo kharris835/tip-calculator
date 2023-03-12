@@ -1,0 +1,90 @@
+:root {
+  --strong-cyan: hsl(172, 67%, 45%);
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+h1 {
+  color: var(--very-dark-cyan);
+  font-size: 18px;
+  letter-spacing: 8px;
+  line-height: 1.5;
+}
+
+h2 {
+  color: var(--very-dark-cyan);
+  font-size: 14px;
+}
+
+h3 {
+  color: white;
+  font-size: 14px;
+}
+
+h4 {
+  color: var(--dark-grayish-cyan);
+  font-size: 10px;
+}
+
+input {
+  background: var(--very-light-grayish-cyan);
+  border: 1px solid var(--very-light-grayish-cyan);
+  color: var(--grayish-cyan);
+}
+
+input:focus {
+  border: 2px solid var(--strong-cyan);
+  border-radius: 4px;
+  outline: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.App {
+  background: var(--light-grayish-cyan);
+  font-family: "Space Mono", monospace;
+  padding-top: 100px;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  height: 300px;
+  width: 660px;
+}
+
+.dark-background {
+  background: var(--very-dark-cyan);
+  height: 90%;
+}
+.custom {
+  background: var(--very-light-grayish-cyan);
+  color: var(--very-dark-cyan);
+}
+
+.tip-btn {
+  background: var(--very-dark-cyan);
+  color: white;
+  border-radius: 4px;
+}
+
+.totals {
+  color: var(--strong-cyan);
+}
+
+.reset-btn {
+  background: var(--dark-grayish-cyan);
+  color: white;
+  border-radius: 4px;
+}
